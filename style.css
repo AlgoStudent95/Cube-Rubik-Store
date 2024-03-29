@@ -1,0 +1,37 @@
+header a {
+    text-decoration: none; 
+    padding: 3px;
+    color: white;
+}
+
+#price table {
+    border: 1px solid black; 
+    width: 400px;
+    border-collapse: collapse; 
+    margin-left: 50%; 
+    transform: translateX(-50%);
+}
+
+#price td {
+    border: 1px solid black; 
+}
+
+#price .header-table {
+    background-color: #FFE4C9 !important;
+}
+
+#gallery img {
+    transition: transform 1s;
+}
+
+#gallery img:hover {
+    transform: scale(1.2);
+}
+
+header a {
+    transition: color 1s;
+}
+
+header a:hover {
+    color: #FFC94A
+}
